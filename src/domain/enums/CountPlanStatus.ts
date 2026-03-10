@@ -1,0 +1,9 @@
+export enum CountPlanStatus {
+  DRAFT = 'DRAFT',
+  READY = 'READY',
+  FROZEN = 'FROZEN',
+  IN_PROGRESS = 'IN_PROGRESS',
+  REVIEWING = 'REVIEWING',
+  COMPLETED = 'COMPLETED',
+  CANCELLED = 'CANCELLED',
+}

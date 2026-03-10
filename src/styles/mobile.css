@@ -1,0 +1,27 @@
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+  body {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+  }
+
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+  /* Larger touch targets */
+  button {
+    min-height: 44px;
+  }
+}
+
+/* Safe area padding for mobile */
+.mobile-safe-bottom {
+  padding-bottom: max(16px, env(safe-area-inset-bottom));
+}
